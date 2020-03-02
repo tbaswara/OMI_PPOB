@@ -1,4 +1,4 @@
-OMI is Payment Point Online Bank(PPOB) application for payment point for products such as PLN,PDAM,Mobile data, Game voucher, and TV Cable. 
+OMI is Payment Point Online Bank(PPOB) application for payment point for products such as PLN,PDAM,Mobile data, Game voucher, and TV Cable.It was developed using PHP Object Oriented language, Laravel Framework and ISO 8583 as data standard.
 
 It exchange data between our client side and server side which is Bank Syariah Mandiri, first we made a connection to the server using socket helper.
 
