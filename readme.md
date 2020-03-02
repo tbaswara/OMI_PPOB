@@ -1,3 +1,25 @@
+OMI is Payment Point Online Bank(PPOB) application for payment point for products such as PLN,PDAM,Mobile data, Game voucher, and TV Cable. 
+
+It exchange data between our client side and server side which is Bank Syariah Mandiri, first we made a connection to the server using socket helper.
+
+ISO 8583 was used as standard for exchanging data, and in our application, ISO 8583 libraries and JAK8583 libraries was used to help implement ISO 8583 in PHP.
+
+the server would send us 20 string and then later our client side will generate and parse it into details such as
+*transaction price
+*customer_name
+*admin
+*stamp_duty
+*time 
+*description
+
+and the details transaction are more variant depending on its product type transaction.
+
+
+
+
+
+
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
